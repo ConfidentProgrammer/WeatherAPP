@@ -1,0 +1,67 @@
+body{
+  height:100%;
+// background: linear-gradient(#836273,#373252);
+//background:url('bckblur1.jpg');
+background-size: cover;
+//filter:blur(5px);
+}
+.mainContainer{
+  height:100%;
+
+
+}
+.container{
+   margin-top:7px;
+   height:360px;
+   width:255px;
+   //background:url("https://media.giphy.com/media/3o7aCRZYNerX4ovPwI/giphy.gif");
+   padding:2px;
+   background-size: cover;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+   border-radius:6px;
+}
+
+.inputContainer{
+  height:auto;
+  width:auto;
+}
+#city{
+  padding:8px;
+  border:none;
+  border-radius:3px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  background:white ;
+  font-size:15px;
+  font-family:comic sans ms;
+
+}
+#time{
+  font-size:60px;
+  font-weight: bold;
+  color:white;
+}
+#go{
+  padding:8px;
+  font-size:17px;
+  border:none;
+  font-weight: bold;
+  width:60px;
+  border-radius:3px;
+  transition: 0.3s;
+}
+#go:hover{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  background:black;
+  color:white;
+
+}
+#temp{
+  //font-weight:bold;
+  font-size:50px;
+  font-family:comic sans ms;
+  color:white;
+}
+#description, #Displaycity{
+  font-size:25px;
+  color:white;
+}
